@@ -1,0 +1,45 @@
+
+.form_File{
+   height: calc(2.25rem + 2px);
+   width: 100%;
+   color: #6c757d;
+   padding: 0px;
+   background-clip: padding-box;
+   border: 0.5px solid #ced4da;
+   border-radius: 2px;
+   font-size: 0.875rem;
+   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+ }
+
+ .form_File:focus {
+   border: 0.5px solid #006d2f;
+ }
+::-webkit-file-upload-button {
+   border: none;
+   outline: none;
+   border-top-right-radius: 40px;
+   border-bottom-right-radius: 40px;
+   background-color: #6c757d;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-right: 10px;
+   cursor: pointer;
+   height: 100%;
+   color: white;
+ }
+ .loader-div {
+   display: none;
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   z-index: 30001;
+ }
+ .loader-img {
+   position: absolute;
+   top: 15rem;
+   bottom: 15rem;
+   left:45rem;
+   right: 15rem;
+   
+ }
+
